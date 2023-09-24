@@ -1,0 +1,42 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-family-primary;
+    margin: 0;
+    font-weight: 300;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden !important;
+    min-height: 100vh;
+    background-color: $white;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.wrapper {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}

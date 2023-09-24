@@ -1,0 +1,48 @@
+@import "../../../static/styles/variables.scss";
+
+.header {
+    margin-top: 30px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+
+    &--link {
+        margin-right: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration: none;
+        color: $black;
+        transition: color 0.5s ease-out;
+        position: relative;
+
+        &:hover {
+            color: $primary;
+
+            &::after {
+                width: 100%;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 0%;
+            height: 1px;
+            background-color: $primary;
+            bottom: -5px;
+            transition: width .3s ease-in-out;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

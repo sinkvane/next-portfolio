@@ -1,0 +1,18 @@
+@mixin font-face($name, $file, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("#{$file}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-ultralight",  100, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-light",       200, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-thin",        300, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-roman",       400, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-medium",      500, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-bold",        700, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-heavy",       800, normal);
+@include font-face("HelveticaNeueCyr", "../fonts/helveticaneuecyr-black",       900, normal);
