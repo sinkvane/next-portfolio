@@ -14,8 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ru">
-
-                    <body>{children}</body>
-                  </html>
-                  )
+      <body>{children}</body>
+    </html>
+  )
 }
