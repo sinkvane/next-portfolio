@@ -1,5 +1,9 @@
 @import "../../../static/styles/variables.scss";
 
+.contact {
+    margin-top: 50px;
+}
+
 .contact__title {
     font-size: 128px;
     text-transform: uppercase;
@@ -7,9 +11,30 @@
     text-align: right;
 }
 
+.contact__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr, 100%);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+}
+
+.contact__socials {
+    grid-area: 1 / 1;
+}
+
+.contact__info {
+    grid-area: 2 / 2;
+    grid-row-end: auto;
+    height: auto;
+    background-color: $black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .socials__code {
     display: flex;
-    width: 55%;
     background-color: $black;
     padding: 20px;
     border-radius: 20px;
@@ -64,15 +89,13 @@
     color: $purple-code;
 }
 
-.contact__info {
-  background-color: $black;
-  padding: 20px;
-  border-radius: 20px;
-  width: 50%;
+.contact__info--text {
+    font-size: 20px;
+    color: $white;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
 }
 
-.contact__info--text {
-  font-size: 20px;
-  color: $white;
-  line-height: 140%;
-}
+
+
