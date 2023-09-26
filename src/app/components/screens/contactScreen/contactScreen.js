@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 import '@/components/screens/contactScreen/contactScreen.scss'
 
@@ -29,10 +28,12 @@ export default function contactScreen() {
                   <span className='purple'>a </span>
                   <span className='green'>href</span>
                   <span className='white'>=</span>
-                  <span className='green'>”<a
-                    href="www.google.com"
+                  <span className='green'>”
+                    <a
+                      href="https://www.google.com"
                     target="_blank"
-                  >www.nikitasync</a>”</span>
+                    >www.nikitasync</a>
+                    ”</span>
                   <span className='white'>
                     <span>
                       &gt;oh, you already here!&lt;/
@@ -52,11 +53,10 @@ export default function contactScreen() {
                   <span className='purple'>a </span>
                   <span className='green'>href</span>
                   <span className='white'>=</span>
-                  <span className='green'>”<Link
-                    href="github.com/sinkvane"
+                  <span className='green'>”<a
+                    href="https://github.com/sinkvane"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >github.com/sinkvane</Link>”</span>
+                  >github.com/sinkvane</a>”</span>
                   <span className='white'>
                     <span>&gt;github&lt;/</span>
                   </span>
@@ -74,10 +74,10 @@ export default function contactScreen() {
                   <span className='purple'>a </span>
                   <span className='green'>href</span>
                   <span className='white'>=</span>
-                  <span className='green'>”<Link
-                    href="t.me/nikitasinkvane"
+                  <span className='green'>”<a
+                    href="https://t.me/nikitasinkvane"
                     target="_blank"
-                  >t.me/nikitasinkvane</Link>”</span>
+                  >t.me/nikitasinkvane</a>”</span>
                   <span className='white'>
                     <span>
                       &gt;telegram&lt;/
@@ -97,10 +97,10 @@ export default function contactScreen() {
                   <span className='purple'>a </span>
                   <span className='green'>href</span>
                   <span className='white'>=</span>
-                  <span className='green'>”<Link
+                  <span className='green'>”<a
                     href="mailto: sinkvadev@gmail.com"
                     target="_blank"
-                  >mailto: sinkvadev@gmail.com</Link>”</span>
+                  >mailto: sinkvadev@gmail.com</a>”</span>
                   <span className='white'>
                     <span>&gt;email&lt;/</span>
                   </span>
@@ -109,7 +109,6 @@ export default function contactScreen() {
 
                 &gt;
               </span>
-
 
               <span className='white'>
                 &lt;/
