@@ -14,24 +14,9 @@ html {
 
 body {
     font-family: $font-family-primary;
-    margin: 0;
-    font-weight: 300;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow-x: hidden !important;
+    height: 100vh;
     min-height: 100vh;
-    background-color: $white;
     color: $black;
-
-    &.no-scroll {
-        overflow: hidden;
-    }
-}
-
-.footer {
-    margin-top: auto;
 }
 
 .wrapper {

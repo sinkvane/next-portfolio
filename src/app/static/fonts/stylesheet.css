@@ -141,3 +141,12 @@
 	font-weight: 100;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Consolas';
+	src: url('consolas-bold.eot');
+	src: local('consolas-bold'),
+		url('consolas-bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}

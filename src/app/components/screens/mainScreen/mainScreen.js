@@ -10,39 +10,35 @@ export default function MainScreen() {
     <>
       <main>
 
-        <div className="wrapper">
+        <div className="main__inner">
 
-          <div className="main__inner">
+          <div className="main__inner--left">
 
-            <div className="main__inner--left">
+            <h3 className="main__inner--subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
 
-              <h3 className="main__inner--subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
+            <h1 className="main__inner--title">Front</h1>
 
-              <h1 className="main__inner--title">Front</h1>
+            <h2 className="main__inner--title">end dev</h2>
 
-              <h2 className="main__inner--title">end dev</h2>
+            <p className="main__inner--text">
+              Мой опыт работы <span>4 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
+            </p>
 
-              <p className="main__inner--text">
-                Мой опыт работы <span>4 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
-              </p>
+          </div> {/* main__inner--left */}
 
-            </div> {/* main__inner--left */}
+          <div className="main__inner--right">
 
-            <div className="main__inner--right">
-
-              <Image
-                src={myPhoto}
-                width={682}
-                height={723}
-                alt="Photo of the author"
-              />
+            <Image
+              src={myPhoto}
+              width={682}
+              height={723}
+              alt="Photo of the author"
+            />
 
 
-            </div> {/* main__inner--right */}
+          </div> {/* main__inner--right */}
 
-          </div> {/* main__inner */}
-
-        </div> {/* wrapper */}
+        </div> {/* main__inner */}
 
       </main>
     </>
