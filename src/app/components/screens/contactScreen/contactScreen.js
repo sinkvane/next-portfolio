@@ -10,8 +10,6 @@ export default function contactScreen() {
 
         <section className="contact__section">
 
-          <div className='contact__triangle'></div>
-
           <div className="contact__socials">
 
             <pre className='socials__code'>
