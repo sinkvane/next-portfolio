@@ -14,14 +14,14 @@ export default function MainScreen() {
 
           <div className="main__inner--left">
 
-            <h3 className="main__inner--subtitle">Привет! Я H<span>Н</span>икита Топчеев</h3>
+            <h3 className="main__inner--subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
 
             <h1 className="main__inner--title">Front</h1>
 
             <h2 className="main__inner--title">end dev</h2>
 
             <p className="main__inner--text">
-              Мой опыт  работы <span>2034 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
+              Мой опыт  работы <span>2077 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
             </p>
 
           </div> {/* main__inner--left */}
