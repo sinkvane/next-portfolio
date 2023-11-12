@@ -14,7 +14,7 @@ export default function MainScreen() {
 
           <div className="main__inner--left">
 
-            <h3 className="main__inner--subtitle">Привет! Я HUIKITA<span>Н</span>икита Топчеев</h3>
+            <h3 className="main__inner--subtitle">Привет! Я TESTSTETSTETSAETSTE<span>Н</span>икита Топчеев</h3>
 
             <h1 className="main__inner--title">Front</h1>
 
