@@ -2,6 +2,7 @@
 
 main {
   margin-top: 50px;
+  position: relative;
 }
 
 .main__inner {
@@ -53,3 +54,41 @@ main {
         color: $primary;
     }
 }
+
+
+.triangle {
+    width: $triangle1;
+    height: $triangle1;
+    transform: rotate(105deg) skewY(30deg) scaleX(0.866);
+    border-radius: 20%;
+    overflow: hidden;
+    position: absolute;
+
+    top: 50px;
+    left: -250px;
+}
+
+.triangle::before,
+.triangle::after {
+    content: "";
+    position: absolute;
+    width: $triangle1;
+    height: $triangle1;
+}
+.triangle::before {
+    border-radius: 20% 20% 20% 55%;
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) skewX(30deg) scaleY(0.866) translateX(-24%);
+    background: red;
+}
+.triangle::after {
+    border-radius: 20% 20% 55% 20%;
+    background: blue;
+    transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) skewX(-30deg) scaleY(0.866) translateX(24%);
+}
+
+.triangle::before,
+.triangle::after {
+    background: linear-gradient(#621DED, #E1DDE8);
+}
+
+

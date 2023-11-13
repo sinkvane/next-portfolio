@@ -10,9 +10,12 @@ export default function MainScreen() {
     <>
       <main>
 
+        <div className="triangle"></div>
+
         <div className="main__inner">
 
           <div className="main__inner--left">
+
 
             <h3 className="main__inner--subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
 
@@ -21,7 +24,7 @@ export default function MainScreen() {
             <h2 className="main__inner--title">end dev</h2>
 
             <p className="main__inner--text">
-              Мой опыт  работы <span>2077 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
+              Мой опыт  работы <span>2 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, а также ведение проектов
             </p>
 
           </div> {/* main__inner--left */}
