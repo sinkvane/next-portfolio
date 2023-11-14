@@ -4,7 +4,7 @@ import '@/components/screens/contactScreen/contactScreen.scss'
 export default function contactScreen() {
   return (
     <>
-      <div className="contact">
+      <section className="contact">
 
         <h2 className="contact__title">contact</h2>
 
@@ -130,7 +130,7 @@ export default function contactScreen() {
 
         </section > {/* contact__section */}
 
-      </div > {/* contact */}
+      </section > {/* contact */}
     </>
   )
 }

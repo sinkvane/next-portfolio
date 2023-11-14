@@ -30,3 +30,9 @@ img {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.stroke {
+    color: transparent;
+    -webkit-text-stroke: $white;
+    -webkit-text-stroke-width: 2px;
+}
