@@ -30,7 +30,7 @@ export default function contactScreen() {
                   <span className='white'>=</span>
                   <span className='green'>”
                     <a
-                      href="https://www.google.com"
+                      href="http://nikitasync.ru/"
                     target="_blank"
                     >www.nikitasync</a>
                     ”</span>
