@@ -1,5 +1,5 @@
 
-import '@/components/screens/contactScreen/contactScreen.scss'
+import '@/components/blocks/contactBlock/contactBlock.scss'
 
 export default function contactScreen() {
   return (

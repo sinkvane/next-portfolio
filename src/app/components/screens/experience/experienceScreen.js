@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
-import '@/components/screens/experience/experience.scss';
-import '@/static/styles/variables.scss';
+import '@/components/screens/experience/experienceScreen.scss';
 
 import gitImage from '@/static/img/git-image.png';
 import syncUpImage from '@/static/img/syncup-image.png';
@@ -12,7 +11,7 @@ import KordaImage from '@/static/img/korda-image.png';
 import CodeImage from '@/static/img/code-image.png';
 import ShareImage from '@/static/img/share-image.png';
 
-export default function Experience() {
+export default function ExperienceScreen() {
   return (
     <>
       <section className="exp">
