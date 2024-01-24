@@ -1,9 +1,10 @@
-import Image from "next/image";
+"use client";
+
+import { useRef, useEffect } from "react";
+import Spline from "@splinetool/react-spline";
 
 import '@/components/screens/mainScreen/mainScreen.scss';
 import '@/static/styles/variables.scss'
-
-import myPhoto from '@/static/img/my-photo.png';
 
 export default function MainScreen() {
   return (
@@ -31,13 +32,7 @@ export default function MainScreen() {
 
           <div className="main__inner--right">
 
-            <Image
-              src={myPhoto}
-              width={682}
-              height={723}
-              alt="Photo of the author"
-            />
-
+            <Spline scene="https://prod.spline.design/HsV9dlPA0PSuq4Hq/scene.splinecode" />
 
           </div> {/* main__inner--right */}
 
