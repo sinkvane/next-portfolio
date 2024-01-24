@@ -32,10 +32,12 @@ export default function ExperienceScreen() {
 
           <div className="exp__grid--item">
 
-            <div className="exp__grid--title">
-              <span className="grid__item--text">Про</span>
-              <span className="stroke grid__item--text ">екты</span>
-            </div>
+            <a href="#" target="_blank">
+              <div className="exp__grid--title">
+                <span className="grid__item--text">Про</span>
+                <span className="stroke grid__item--text ">екты</span>
+              </div>
+            </a>
 
             <Image
               src={CodeImage}
@@ -47,39 +49,48 @@ export default function ExperienceScreen() {
 
           <div className="exp__grid--item2">
 
-            <Image
-              src={KordaImage}
-              width={'100%'}
-              height={'100%'}
-            />
+
+            <a href="#" target="_blank">
+              <Image
+                src={KordaImage}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
 
           </div> {/* exp__grid--item2 */}
 
           <div className="exp__grid--item3">
 
-            <Image
-              src={syncQrImage}
-              width={'100%'}
-              height={'100%'}
-            />
+            <a href="#" target="_blank">
+              <Image
+                src={syncQrImage}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
 
           </div> {/* exp__grid--item3 */}
 
           <div className="exp__grid--item4">
 
-            <Image
-              src={rjdImage}
-              width={'100%'}
-              height={'100%'}
-            />
+            <a href="#" target="_blank">
+              <Image
+                src={rjdImage}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
 
           </div> {/* exp__grid--item4 */}
 
           <div className="exp__grid--item5">
 
-            <div className="exp__grid--title">
-              <span className="stroke grid__item--text">git</span>
-            </div>
+            <a href="#" target="_blank">
+              <div className="exp__grid--title">
+                <span className="stroke grid__item--text">git</span>
+              </div>
+            </a>
 
             <Image
               src={gitImage}
@@ -91,20 +102,24 @@ export default function ExperienceScreen() {
 
           <div className="exp__grid--item6">
 
-            <Image
-              src={syncUpImage}
-              width={'100%'}
-              height={'100%'}
-            />
+            <a href="#" target="_blank">
+              <Image
+                src={syncUpImage}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
 
           </div> {/* exp__grid--item6 */}
 
           <div className="exp__grid--item7">
 
-            <div className="exp__grid--title">
-              <span className="grid__item--text">кон</span>
-              <span className="stroke grid__item--text ">такты</span>
-            </div>
+            <a href="#" target="_blank">
+              <div className="exp__grid--title">
+                <span className="grid__item--text">кон</span>
+                <span className="stroke grid__item--text ">такты</span>
+              </div>
+            </a>
 
             <Image
               src={ShareImage}
@@ -116,11 +131,14 @@ export default function ExperienceScreen() {
 
           <div className="exp__grid--item8">
 
-            <Image
-              src={trainctaftImage}
-              width={'100%'}
-              height={'100%'}
-            />
+
+            <a href="#" target="_blank">
+              <Image
+                src={trainctaftImage}
+                width={'100%'}
+                height={'100%'}
+              />
+            </a>
 
           </div> {/* exp__grid--item8 */}
 
