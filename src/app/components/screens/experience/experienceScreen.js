@@ -131,7 +131,6 @@ export default function ExperienceScreen() {
 
           <div className="exp__grid--item8">
 
-
             <a href="#" target="_blank">
               <Image
                 src={trainctaftImage}

@@ -74,9 +74,21 @@
 
     & > a {
         text-decoration: none;
+
+        & > img {
+            transition: transform 0.2s linear;
+        }
     }
 
     &:hover {
+        cursor: pointer;
+
+        & > img {
+            transform: scale(1.05);
+        }
+    }
+
+    & > a:hover {
         cursor: pointer;
 
         & > img {
