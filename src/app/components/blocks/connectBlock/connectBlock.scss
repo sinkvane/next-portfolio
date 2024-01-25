@@ -54,6 +54,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    & > .exp__grid--item {
+        box-shadow: 14px 10px 86px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    & > .exp__grid--item5 {
+        box-shadow: 14px 10px 86px 0px rgba(0, 0, 0, 0.1);
+    }
 }
 
 .form {

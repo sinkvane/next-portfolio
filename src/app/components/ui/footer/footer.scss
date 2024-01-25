@@ -1,0 +1,56 @@
+@import "../../../static/styles/variables.scss";
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footer__social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer__nav {
+    display: flex;
+
+    &--link {
+        margin-right: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        text-decoration: none;
+        transition: color 0.5s ease-out;
+        position: relative;
+
+        &:hover {
+            color: $primary;
+
+            &::after {
+                width: 100%;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 0%;
+            height: 1px;
+            background-color: $primary;
+            bottom: -5px;
+            transition: width 0.3s ease-in-out;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
