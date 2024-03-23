@@ -116,9 +116,9 @@ export default function ExperienceScreen() {
 
             <a href="#" target="_blank">
               <div className="exp__grid--title">
-                <span className="grid__item--text">кон</span>
+                <span className=" grid__item--text">кон</span>
                 <span className="stroke grid__item--text ">такты</span>
-              </div>
+              </div> {/* exp__grid--title */}
             </a>
 
             <Image
