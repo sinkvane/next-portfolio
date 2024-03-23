@@ -61,7 +61,7 @@ export default function contactScreen() {
         </div> {/* connect__left */}
 
         <div className="connect__right">
-
+{/* 
           <form className="form">
             <h4>Начать сотрудничество</h4>
 
@@ -69,13 +69,13 @@ export default function contactScreen() {
               <input type="text" placeholder="Введите ваше имя" className="form__name" />
               <input type="email" placeholder="Введите ваш Email" className="form__email" />
               <textarea type="text" placeholder="Ваше сообщение" className="form__message" />
-            </div> {/* form__inputs */}
+            </div>
 
             <button type="submit" className="form__button">
               Отправить
-            </button> {/* form__button */}
+            </button>
 
-          </form> {/* form */}
+          </form> */}
 
         </div> {/* connect__right */}
 

@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <MainScreen />
       <ExperienceScreen />
-      <ContactBlock />
+    <ContactBlock />
       <ConnectBlock />
       <Footer />
     </>

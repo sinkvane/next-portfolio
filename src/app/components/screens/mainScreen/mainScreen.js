@@ -1,42 +1,45 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import React, { Suspense } from 'react';
 import Spline from "@splinetool/react-spline";
 
 import '@/components/screens/mainScreen/mainScreen.scss';
 import '@/static/styles/variables.scss'
 
+
+
 export default function MainScreen() {
+  const Spline = React.lazy(() => import('@splinetool/react-spline'));
   return (
     <>
       <main>
 
-        <div className="triangle"></div>
+        <div className="main__wrapper">
 
-        <div className="main__inner">
-
-          <div className="main__inner--left">
+          <div className="main__left">
 
 
-            <h3 className="main__inner--subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
+            <h3 className="main__subtitle">Привет! Я <span>Н</span>икита Топчеев</h3>
 
-            <h1 className="main__inner--title">Front</h1>
+            <h1 className="main__title">Front</h1>
 
-            <h2 className="main__inner--title">end dev</h2>
+            <h2 className="main__title">end dev</h2>
 
-            <p className="main__inner--text">
+            <p className="main__text">
               Мой опыт  работы <span>4 года</span>. Навыки в веб-сфере —  вёрстка и оптимизация сайта, разработка и адаптация веб-дизайна, также ведение проектов
             </p>
 
-          </div> {/* main__inner--left */}
+          </div> {/* main__left */}
 
-          <div className="main__inner--right">
+          <div className="main__right">
 
-            <Spline scene="https://prod.spline.design/HsV9dlPA0PSuq4Hq/scene.splinecode" />
+            <Suspense fallback={<div>Loading...</div>}>
+              <Spline scene="https://prod.spline.design/HsV9dlPA0PSuq4Hq/scene.splinecode" />
+            </Suspense>
 
-          </div> {/* main__inner--right */}
+          </div> {/* main__right */}
 
-        </div> {/* main__inner */}
+        </div>
 
       </main>
     </>
