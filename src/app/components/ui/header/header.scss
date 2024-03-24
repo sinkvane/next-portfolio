@@ -2,7 +2,9 @@
 @import "@/static/styles/mixins.scss";
 
 .header {
+    position: relative;
     margin-top: 30px;
+    z-index: 2;
 }
 
 .header__inner {
@@ -37,6 +39,7 @@
         text-decoration: none;
         transition: color 0.5s ease-out;
         position: relative;
+        color: $white;
 
         &:hover {
             color: $primary;
@@ -51,7 +54,7 @@
             position: absolute;
             display: block;
             width: 0%;
-            height: 1px;
+            height: 2px;
             background-color: $primary;
             bottom: -5px;
             transition: width .3s ease-in-out;

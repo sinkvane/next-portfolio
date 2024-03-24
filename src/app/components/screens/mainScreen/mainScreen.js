@@ -1,18 +1,14 @@
 "use client";
 
-import React, { Suspense } from 'react';
 import Spline from "@splinetool/react-spline";
 
 import '@/components/screens/mainScreen/mainScreen.scss';
 import '@/static/styles/variables.scss'
 
-
-
 export default function MainScreen() {
-  const Spline = React.lazy(() => import('@splinetool/react-spline'));
   return (
     <>
-      <main>
+      <main className="wrapper">
 
         <div className="main__wrapper">
 
@@ -31,11 +27,9 @@ export default function MainScreen() {
 
           </div> {/* main__left */}
 
-          <div className="main__right">
+          <div className="main__animation">
 
-            <Suspense fallback={<div>Loading...</div>}>
-              <Spline scene="https://prod.spline.design/HsV9dlPA0PSuq4Hq/scene.splinecode" />
-            </Suspense>
+            <Spline scene="https://prod.spline.design/Dwqvee-ORuD1P-iA/scene.splinecode" />
 
           </div> {/* main__right */}
 
