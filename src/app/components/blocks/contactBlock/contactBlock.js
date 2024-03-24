@@ -31,7 +31,7 @@ export default function contactScreen() {
                   <span className='green'>”
                     <a
                       href="http://nikitasync.ru/"
-                    target="_blank"
+                      target="_blank"
                     >www.nikitasync</a>
                     ”</span>
                   <span className='white'>
@@ -123,7 +123,8 @@ export default function contactScreen() {
           <div className="contact__info">
 
             <p className="contact__info--text">
-              Готов сотрудничать во Frontend разработке . Мой опыт и навыки пригодятся вашей компании. Вместе мы создадим качественные веб-приложения с уникальным дизайном и отзывчивым интерфейсом. Я готов работать в команде и делиться идеями для успешного достижения ваших целей.
+              Меня вдохновляет <span>Frontend</span> и сфера <span>WEB-разработки</span>, именно поэтому могу заявить, что горю своим делом. Я быстро учусь и искренне радуюсь возможности обучиться чему-то новому, чтобы оперативно использовать в работе. Можно сказать, что мой девиз: &laquo;<span>Буду пробовать теорию, пока не получится на практике</span>&raquo;.
+
             </p>
 
           </div> {/* contact__info */}
