@@ -11,6 +11,8 @@ import KordaImage from '@/static/img/korda-image.png';
 import CodeImage from '@/static/img/code-image.png';
 import ShareImage from '@/static/img/share-image.png';
 
+import Animation from '@/components/ui/minecraftAnimation/minecraftAnimation';
+
 export default function ExperienceScreen() {
   return (
     <>
@@ -18,9 +20,7 @@ export default function ExperienceScreen() {
 
         <div className="exp__header">
 
-          <div className="exp__header--anim">
-            Анимация
-          </div> {/* exp__header--anim */}
+          <Animation />
 
           <h2 className="exp__header--title">
             EXPERIENCE

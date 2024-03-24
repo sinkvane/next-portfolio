@@ -5,9 +5,6 @@ import '@/static/styles/mixins.scss'
 import '@/static/styles/GUI.scss'
 import '@/static/styles/variables.scss'
 
-import Preloader from '@/components/screens/preloader/preloader';
-
-
 export const metadata = {
   title: 'Никита Sinkvane - Frontend разработчик',
   description: 'Никита Топчеев Портфолио Frontend developer Разработчик',
@@ -17,7 +14,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body>
-        <Preloader />
         <div className="wrapper">
           {children}
         </div>
